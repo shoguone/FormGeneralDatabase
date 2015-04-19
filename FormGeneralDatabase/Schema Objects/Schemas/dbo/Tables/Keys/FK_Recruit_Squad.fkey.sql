@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Recruit]
+    ADD CONSTRAINT [FK_Recruit_Squad] FOREIGN KEY ([Squad_ID]) REFERENCES [dbo].[Squad] ([ID]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

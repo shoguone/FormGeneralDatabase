@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Squadron]
+    ADD CONSTRAINT [FK_Squadron_Season] FOREIGN KEY ([Season_ID]) REFERENCES [dbo].[Season] ([ID]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
