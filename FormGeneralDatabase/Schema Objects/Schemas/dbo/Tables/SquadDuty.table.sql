@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[SquadDuty] (
-    [ID]             INT           NOT NULL,
+    [ID]             INT           NOT NULL IDENTITY,
     [MilitarySpecs1] NVARCHAR (50) NOT NULL,
     [MilitarySpecs2] NVARCHAR (50) NOT NULL,
     [MilitarySpecs3] NVARCHAR (50) NOT NULL,

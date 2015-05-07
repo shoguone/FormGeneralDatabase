@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[DutyForm] (
-    [ID]                INT           NOT NULL,
+    [ID]                INT           NOT NULL IDENTITY,
     [Name]              NVARCHAR (50) NOT NULL,
     [PermissionForm_ID] INT           NULL,
     [TDT]               NVARCHAR (50) NULL

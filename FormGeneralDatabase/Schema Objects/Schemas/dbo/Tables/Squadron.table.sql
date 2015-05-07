@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Squadron] (
-    [ID]              INT           NOT NULL,
+    [ID]              INT           NOT NULL IDENTITY,
     [Number]          NVARCHAR (50) NULL,
     [IsCentral]       BIT           NOT NULL,
     [IsLocal]         BIT           NOT NULL,

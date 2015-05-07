@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Season] (
-    [ID]     INT NOT NULL,
+    [ID]     INT NOT NULL IDENTITY,
     [Year]   INT NOT NULL,
     [Number] INT NOT NULL
 );

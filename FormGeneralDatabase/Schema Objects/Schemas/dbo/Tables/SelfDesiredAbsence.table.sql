@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[SelfDesiredAbsence] (
-    [ID]           INT      NOT NULL,
+    [ID]           INT      NOT NULL IDENTITY,
     [FromDateTime] DATETIME NOT NULL,
     [ToDateTime]   DATETIME NULL,
     [Recruit_ID]   INT      NOT NULL

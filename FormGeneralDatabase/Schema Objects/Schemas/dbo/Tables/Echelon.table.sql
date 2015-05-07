@@ -1,7 +1,10 @@
 ﻿CREATE TABLE [dbo].[Echelon] (
-    [ID]     INT           NOT NULL,
-    [Number] NVARCHAR (50) NOT NULL
+    [ID]     INT           IDENTITY(1,1)	NOT NULL,
+    [Number] NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_Echelon] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
+
+
 
 
 GO

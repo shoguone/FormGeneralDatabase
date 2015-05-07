@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[FamilyStatus] (
-    [ID]   INT            NOT NULL,
+    [ID]   INT            NOT NULL IDENTITY,
     [Name] NVARCHAR (128) NOT NULL
 );
 

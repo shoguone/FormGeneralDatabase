@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[PermissionForm] (
-    [ID]   INT          NOT NULL,
+    [ID]   INT          NOT NULL IDENTITY,
     [Name] NVARCHAR (8) NOT NULL
 );
 

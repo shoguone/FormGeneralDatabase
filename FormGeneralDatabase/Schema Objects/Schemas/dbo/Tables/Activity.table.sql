@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Activity] (
-    [ID]   INT            NOT NULL,
+    [ID]   INT            NOT NULL IDENTITY,
     [Name] NVARCHAR (512) NOT NULL
 );
 

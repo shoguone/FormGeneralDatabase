@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Permission] (
-    [ID]                INT          NOT NULL,
+    [ID]                INT          NOT NULL IDENTITY,
     [Number]            NVARCHAR (8) NOT NULL,
     [Date]              DATE         NOT NULL,
     [PermissionForm_ID] INT          NOT NULL,

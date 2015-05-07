@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Squad] (
-    [ID]                INT           NOT NULL,
+    [ID]                INT           NOT NULL IDENTITY,
     [Name]              NVARCHAR (50) NULL,
     [Number]            NVARCHAR (8)  NOT NULL,
     [DepartureDate]     DATE          NULL,

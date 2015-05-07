@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Return] (
-    [ID]               INT            NOT NULL,
+    [ID]               INT            NOT NULL IDENTITY,
     [ReturnDate]       DATE           NOT NULL,
     [Reason]           NVARCHAR (512) NULL,
     [Description]      NVARCHAR (512) NULL,

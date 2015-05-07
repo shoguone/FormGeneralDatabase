@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Token] (
-    [ID]         INT          NOT NULL,
+    [ID]         INT          NOT NULL IDENTITY,
     [Serial]     NVARCHAR (8) NOT NULL,
     [Number]     NVARCHAR (8) NOT NULL,
     [Recruit_ID] INT          NOT NULL

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[MedicineDegree] (
-    [ID]   INT       NOT NULL,
+    [ID]   INT       NOT NULL IDENTITY,
     [Name] NCHAR (1) NOT NULL
 );
 

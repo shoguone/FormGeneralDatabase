@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[RecruitsLog] (
-    [ID]             INT      NOT NULL,
+    [ID]             INT      NOT NULL IDENTITY,
     [Recruit_ID]     INT      NOT NULL,
     [OldSquad_ID]    INT      NOT NULL,
     [NewSquad_ID]    INT      NOT NULL,

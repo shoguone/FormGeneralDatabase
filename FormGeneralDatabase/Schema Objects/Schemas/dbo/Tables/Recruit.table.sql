@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Recruit] (
-    [ID]                       INT            NOT NULL,
+    [ID]                       INT            NOT NULL IDENTITY,
     [LastName]                 NVARCHAR (50)  NOT NULL,
     [FirstName]                NVARCHAR (50)  NOT NULL,
     [MiddleName]               NVARCHAR (50)  NULL,

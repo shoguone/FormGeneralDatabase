@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Deputy] (
-    [ID]         INT           NOT NULL,
+    [ID]         INT           NOT NULL IDENTITY,
     [SecondName] NVARCHAR (50) NOT NULL,
     [FirstName]  NVARCHAR (50) NOT NULL,
     [MiddleName] NVARCHAR (50) NULL

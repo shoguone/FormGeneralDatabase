@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Relative] (
-    [ID]         INT            NOT NULL,
+    [ID]         INT            NOT NULL IDENTITY,
     [Recruit_ID] INT            NOT NULL,
     [SecondName] NVARCHAR (50)  NOT NULL,
     [FirstName]  NVARCHAR (50)  NOT NULL,

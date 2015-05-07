@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Competency] (
-    [ID]   INT          NOT NULL,
+    [ID]   INT          NOT NULL IDENTITY,
     [Name] NVARCHAR (3) NOT NULL
 );
 

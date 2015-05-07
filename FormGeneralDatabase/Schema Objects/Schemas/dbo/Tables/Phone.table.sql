@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Phone] (
-    [ID]              INT            NOT NULL,
+    [ID]              INT            NOT NULL IDENTITY,
     [Number]          NVARCHAR (50)  NOT NULL,
     [Addressee]       NVARCHAR (128) NULL,
     [MilitaryUnit_ID] INT            NOT NULL

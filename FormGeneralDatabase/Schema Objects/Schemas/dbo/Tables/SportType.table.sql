@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[SportType] (
-    [ID]   INT            NOT NULL,
+    [ID]   INT            NOT NULL IDENTITY,
     [Name] NVARCHAR (128) NOT NULL
 );
 

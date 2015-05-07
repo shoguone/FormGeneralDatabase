@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[MilitaryCertificate] (
-    [ID]               INT            NOT NULL,
+    [ID]               INT            NOT NULL IDENTITY,
     [Post]             NVARCHAR (512) NOT NULL,
     [Serial]           NVARCHAR (8)   NOT NULL,
     [Number]           NVARCHAR (8)   NOT NULL,

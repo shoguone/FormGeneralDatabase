@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[TDT] (
-    [ID]       INT           NOT NULL,
+    [ID]       INT           NOT NULL IDENTITY,
     [Column1]  BIT           NOT NULL,
     [Column2]  BIT           NOT NULL,
     [Column3]  BIT           NOT NULL,

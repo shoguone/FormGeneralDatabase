@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Dismissal] (
-    [ID]            INT           NOT NULL,
+    [ID]            INT           NOT NULL IDENTITY,
     [DismissalFrom] DATE          NOT NULL,
     [DismissalTo]   DATE          NOT NULL,
     [SquadNumber]   NVARCHAR (50) NULL,

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[MilitaryUnit] (
-    [ID]                INT            NOT NULL,
+    [ID]                INT            NOT NULL IDENTITY,
     [Name]              NVARCHAR (50)  NOT NULL,
     [ZIP]               NVARCHAR (50)  NOT NULL,
     [Address]           NVARCHAR (512) NOT NULL,

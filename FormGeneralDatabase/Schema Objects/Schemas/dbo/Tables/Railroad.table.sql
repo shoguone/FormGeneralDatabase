@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Railroad] (
-    [ID]   INT            NOT NULL,
+    [ID]   INT            NOT NULL IDENTITY,
     [Name] NVARCHAR (128) NOT NULL
 );
 

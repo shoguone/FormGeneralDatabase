@@ -337,9 +337,6 @@
     <Build Include="Schema Objects\Schemas\dbo\Tables\Keys\PK_RecruitSport.pkey.sql">
       <SubType>Code</SubType>
     </Build>
-    <Build Include="Schema Objects\Schemas\dbo\Tables\Keys\PK_Echelon_1.pkey.sql">
-      <SubType>Code</SubType>
-    </Build>
     <Build Include="Schema Objects\Schemas\dbo\Tables\Keys\PK_Education.pkey.sql">
       <SubType>Code</SubType>
     </Build>
@@ -578,6 +575,7 @@
   <ItemGroup>
     <None Include="Debug.publish.xml" />
     <None Include="Release.publish.xml" />
+    <None Include="FormGeneralDatabase.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="Scripts\Pre-Deployment\Script.PreDeployment.sql" />
