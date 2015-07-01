@@ -1,7 +1,9 @@
 ﻿CREATE TABLE [dbo].[MilitaryDistrict] (
     [ID]       INT            NOT NULL IDENTITY,
     [Name]     NVARCHAR (8)   NOT NULL,
-    [FullName] NVARCHAR (128) NULL
+    [FullName] NVARCHAR (128) NULL, 
+    [Season_ID] INT NOT NULL, 
+    CONSTRAINT [FK_MilitaryDistrict_Season] FOREIGN KEY ([Season_ID]) REFERENCES [Season]([ID])
 );
 
 
